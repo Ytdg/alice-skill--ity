@@ -14,6 +14,8 @@
 3. Импортируйте базу данных export.sql (postgres,12345678) 
 4. Запустить jar файл в папке target (службы postgres должны работать) командой: java -jar <имя *jar файла >
 проект работает на [http://localhost:8080/api-alice/city](https://www.example.com)
+
+
 также можно запустить проект с помощью docker:  *docker-compose up --build -d*
 # Работоспособность 
 Установить CloudPub (аналог ngrok) - https://cloudpub.ru/auth/sign-in
